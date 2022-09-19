@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/*header style*/
 
 header{
     background-color: #255ee9;
@@ -32,6 +33,8 @@ header button{
     border: none;
 }
 
+/*first section style*/
+
 .s-1{
     background-image: url(img/jumbo.png);
     background-position: center;
@@ -42,24 +45,24 @@ header button{
     align-items: center;
 }
 
-.s-1-center{
+.s-1-container{
     max-width: 630px;
     text-align: center;
 }
 
-.s-1-center h1{
+.s-1-container h1{
     font-size: 3rem;
     color: #ffffff;
     margin-bottom: 30px;
 }
 
-.s-1-center p{
+.s-1-container p{
     color: #ffffff;
     line-height: 30px;
     margin-bottom: 20px;
 }
 
-.s-1-center .download-mac{
+.s-1-container .download-mac{
     background-color: #ffffff;
     padding: 15px;
     border-radius: 25px;
@@ -73,7 +76,7 @@ header button{
     font-size: 20px;
 }
 
-.s-1-center .open-discord{
+.s-1-container .open-discord{
     text-decoration: none;
     color: #ffffff;
     background-color: #000000;
@@ -81,4 +84,27 @@ header button{
     border-radius: 25px;
     border: 0;
     margin-left: 10px;
+}
+
+/*second section style*/
+
+.s-2{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-2-copy{
+    flex-basis: 360px;
+    align-self: 10px;
+}
+
+.s-2-copy h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.s-2-copy p{
+    line-height: 30px;
 }
