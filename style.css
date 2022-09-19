@@ -62,7 +62,7 @@ header button{
     margin-bottom: 20px;
 }
 
-.s-1-container .download-mac{
+.s-1-container .download-mac-white{
     background-color: #ffffff;
     padding: 15px;
     border-radius: 25px;
@@ -131,4 +131,81 @@ header button{
 
 .s-3-copy p{
     line-height: 27px;
+}
+
+/*fourth section style*/
+
+.s-4{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-4-copy{
+    flex-basis: 360px;
+    padding-bottom: 110px;
+}
+
+.s-4-copy h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.s-4-copy p{
+    line-height: 27px;
+}
+
+/*fifth section style*/
+
+.s-5{
+    background-color: #d1d1d1;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-5-copy{
+    text-align: center;
+    max-width: 950px;
+}
+
+.s-5-copy h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.s-5-copy p{
+    line-height: 27px;
+}
+
+.s-5>img{
+    width: 75%;
+}
+
+.ask {
+    text-align: center;
+}
+
+.ask img{
+    width: 460px;
+    width: 460px;
+}
+
+.ask h2{
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.ask .download-mac-blue{
+    background-color: #7289da;
+    padding: 10px;
+    padding-bottom: 15px;  
+    border-radius: 25px;
+    border: 0;
+    text-decoration: none;
+    color:#ffffff;
+    margin-right: 10px;
 }
