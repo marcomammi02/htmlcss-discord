@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: blue;
+    background-color: #255ee9;
     padding: 20px 0 20px;
     display: flex;
     justify-content: space-around;
@@ -20,14 +20,65 @@ nav{
 }
 
 nav a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
 header button{
     
-    background-color: white;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 18px;
     border: none;
+}
+
+.s-1{
+    background-image: url(img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-1-center{
+    max-width: 630px;
+    text-align: center;
+}
+
+.s-1-center h1{
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.s-1-center p{
+    color: #ffffff;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.s-1-center .download-mac{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 25px;
+    border: 0;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.arrow-symbol{
+    font-size: 20px;
+}
+
+.s-1-center .open-discord{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 25px;
+    border: 0;
+    margin-left: 10px;
 }
