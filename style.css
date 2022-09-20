@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 /*header style*/
 
 header{
@@ -114,6 +115,20 @@ header button{
 
 .s-2-copy p{
     line-height: 27px;
+}
+
+/*wave pattern style*/
+
+svg path{
+   fill: #d1d1d1;
+}
+
+svg{
+    margin-bottom: -5px;
+}
+
+.reverse{
+    transform: rotate(180deg);
 }
 
 /*third section style*/
