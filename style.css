@@ -279,12 +279,14 @@ footer .footer-center{
 
 .social img{
     width: 28px;
+    margin-right: 10px;
 }
 
-.social p{
-    display: inline-block;
+.social select{
+    display: inline;
+    border: 0;
+    background-color: #23272a;
     color: #ffffff;
-    margin-left: 5px;
 }
 
 .social .fa-brands{
