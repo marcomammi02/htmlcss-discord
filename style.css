@@ -15,14 +15,21 @@ header{
 
 nav{
     width: 33%;
+}
+
+nav ul{
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 nav a{
-    color: #ffffff;
     text-decoration: none;
+    color: #ffffff;
+}
+
+nav li{
+    padding: 12px;
 }
 
 header button{
