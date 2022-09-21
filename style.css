@@ -8,6 +8,10 @@
 /*header style*/
 
 header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: #255ee9;
     padding: 20px 0 20px;
     display: flex;
